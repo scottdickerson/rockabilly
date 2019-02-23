@@ -8,6 +8,7 @@ import RockabillyCarousel from "../RockabillyCarousel/RockabillyCarousel";
 import { withRouter } from "react-router";
 import { ROUTES } from "../../constants/constants";
 import ArtistSchema from "../../schemas/artist";
+import styles from "./RockabillyMainScreen.module.css";
 
 class RockabillyMainScreen extends React.Component {
   static propTypes = {
@@ -32,9 +33,12 @@ class RockabillyMainScreen extends React.Component {
   render() {
     const { selectedSite } = this.props;
     return (
-      <MainScreen>
-        <TopTitle imageURL={titleImage} />
+      <MainScreen className={styles.rockabillyMain}>
+        <TopTitle className={styles.rockabillyTitle} imageURL={titleImage} />
         <Intro
+          className={styles.rockabillyIntro}
+          textClassName={styles.rockabillyIntroText}
+          detailsClassName={styles.rockabillyIntroDetails}
           intro="Rockabilly is important!"
           details="It's an Arkansas tradition y'all!"
         />

@@ -10,7 +10,7 @@ const propTypes = {
 };
 
 const TopTitle = props => (
-  <div className={styles.topTitleImage}>
+  <div className={classnames(styles.topTitleImage, props.className)}>
     <img width="100%" src={props.imageURL} alt="title" />
     <div className={classnames(styles.titleText, styles.topTitleText)}>
       {props.children}

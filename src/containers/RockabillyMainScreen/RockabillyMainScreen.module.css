@@ -1,0 +1,27 @@
+.rockabillyIntro {
+  background: rgba(0, 0, 0, 0.3);
+  margin-top: 3rem;
+  width: 922px;
+  height: 214px;
+  border: 1px solid #66c4a4;
+  border-radius: 10px;
+}
+
+.rockabillyIntroText {
+  padding: 1rem 0rem 0.5rem;
+  color: #66b8c8;
+}
+
+.rockabillyIntroDetails {
+  padding: 0rem 2rem;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.rockabillyMain {
+  padding-top: 1rem;
+}
+
+.rockabillyTitle {
+  padding-top: 0;
+}
