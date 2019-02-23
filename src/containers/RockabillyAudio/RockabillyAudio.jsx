@@ -1,21 +1,30 @@
 import React from "react";
+import PropTypes from "prop-types";
 import AudioPlayer from "../../components/AudioPlayer/AudioPlayer";
-import billySong from "./mp3s/01 trouble bound biley lee riley.mp3";
+import styles from "./RockabillyAudio.module.css";
+
 import toggleButton from "./img/03InternalPage-ListenButton@2x.png";
-import ArtistSchema from "../../schemas/artist";
 
 const propTypes = {
-  selectedSite: ArtistSchema
+  src: PropTypes.string.isRequired,
+  songTitle: PropTypes.node.isRequired,
+  writtenBy: PropTypes.node.isRequired,
+  performedBy: PropTypes.node.isRequired
 };
 
-const RockabillyAudio = ({ selectedSite }) => {
-  // TODO: Need to pull from selected Site schema
-  const credits = "Red Headed Woman, Sun Records, 1956";
+const RockabillyAudio = ({ src, songTitle, writtenBy, performedBy }) => {
+  const credits = (
+    <div className={styles.credits}>
+      <div>{songTitle}</div>
+      <div>{writtenBy}</div>
+      <div>{performedBy}</div>
+    </div>
+  );
   return (
     <AudioPlayer
       toggleButton={toggleButton}
       credits={credits}
-      soundFile={billySong}
+      soundFile={src}
     />
   );
 };
