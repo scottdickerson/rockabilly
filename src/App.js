@@ -2,11 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Switch, Route, withRouter } from "react-router";
 import { ROUTES } from "./constants/constants";
-import SpyingPullScreen from "./containers/SpyingPullScreen/SpyingPullScreen";
-import SpyingMainScreen from "./containers/SpyingMainScreen/SpyingMainScreen";
-import Cypher from "./containers/Cypher/Cypher";
-import Computing from "./containers/Computing/Computing";
-import Telegram from "./containers/Telegram/Telegram";
+import RockabillyPullScreen from "./containers/RockabillyPullScreen/RockabillyPullScreen";
 
 class App extends React.Component {
   static propTypes = {
@@ -47,21 +43,13 @@ class App extends React.Component {
     return (
       <div>
         <Switch>
-          <Route exact path={ROUTES.PULLSCREEN} component={SpyingPullScreen} />
-          <Route path={ROUTES.MAINSCREEN} component={SpyingMainScreen} />
+          <Route
+            exact
+            path={ROUTES.PULLSCREEN}
+            component={RockabillyPullScreen}
+          />
+          {/*<Route path={ROUTES.MAINSCREEN} component={SpyingMainScreen} />*/}
         </Switch>
-        <Cypher
-          isOpen={location.pathname === ROUTES.CYPHER}
-          onCloseSite={this.handleCloseSite}
-        />
-        <Telegram
-          isOpen={location.pathname === ROUTES.TELEGRAM}
-          onCloseSite={this.handleCloseSite}
-        />
-        <Computing
-          isOpen={location.pathname === ROUTES.COMPUTING}
-          onCloseSite={this.handleCloseSite}
-        />
       </div>
     );
   }

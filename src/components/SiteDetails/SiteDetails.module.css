@@ -57,7 +57,8 @@
   transform: translateY(0%);
 }
 :global(.bottom-exit) .siteDetailBackground {
-  background-image: url("../../img/Background.png");
+  background-image: url("../../img/00-1600x900-RockabillyLegends-Background@2x.png");
+  background-size: cover;
   opacity: 1;
   z-index: -1;
 }
