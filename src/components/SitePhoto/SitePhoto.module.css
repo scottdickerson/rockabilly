@@ -1,0 +1,21 @@
+.artistPhoto {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.image {
+  width: 507px;
+}
+
+.separator {
+  padding: 2rem;
+  width: 613px;
+}
+
+.caption {
+  padding: 0 2rem;
+  text-transform: uppercase;
+  color: #d0a127;
+  font-family: "FranklinBookGothic";
+  font-size: 14pt;
+}
