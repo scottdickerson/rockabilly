@@ -5,13 +5,15 @@ import bobbyBrownSrc from "../../containers/RockabillyCarousel/img/234x234-Bobby
 import bobbyLeeSrc from "../../containers/RockabillyCarousel/img/234x234-BobbyLeeTrammell.png";
 import charlieRichSrc from "../../containers/RockabillyCarousel/img/234x234-CharlieRich.png";
 import chuckComerSrc from "../../containers/RockabillyCarousel/img/234x234-ChuckComer.png";
+import dannyIvySrc from "../../containers/RockabillyCarousel/img/234x234-DannyChrisIvy.png";
 
 const sites = [
   { id: 0, name: "Billy Lee Riley", thumbnail: billyLeeRileySrc },
   { id: 1, name: "Bobby Brown", thumbnail: bobbyBrownSrc },
   { id: 2, name: "Bobby Lee Trammell", thumbnail: bobbyLeeSrc },
   { id: 3, name: "Charlie Rich", thumbnail: charlieRichSrc },
-  { id: 4, name: "Chuck Comer", thumbnail: chuckComerSrc }
+  { id: 4, name: "Chuck Comer", thumbnail: chuckComerSrc },
+  { id: 5, name: "Danny Chris Ivy", thumbnail: dannyIvySrc }
 ];
 
 const RockabillyCarousel = ({ ...props }) => (

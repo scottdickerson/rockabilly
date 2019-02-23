@@ -1,0 +1,16 @@
+.audioPlayer {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.image {
+  width: 257px;
+  height: 85px;
+  cursor: pointer;
+}
+
+.credits {
+  font-family: "FranklinGothicBook";
+  padding: 1rem 0rem;
+  color: #d0a127;
+}
