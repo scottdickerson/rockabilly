@@ -2,18 +2,19 @@
   display: flex;
   flex-flow: column nowrap;
   width: 100%;
+  padding-left: 4rem;
 }
 .image {
   max-width: 616px;
-  padding: 2rem;
+  padding: 2rem 0rem;
 }
 .separator {
-  padding: 2rem 2rem;
+  padding: 2rem 0rem;
   max-width: 616px;
 }
 
 .caption {
-  padding: 0 4rem;
+  padding: 0 2rem;
   text-transform: uppercase;
   color: #d0a127;
   font-family: "FranklinGothicBook";

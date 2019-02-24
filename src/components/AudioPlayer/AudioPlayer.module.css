@@ -1,6 +1,7 @@
 .audioPlayer {
   display: flex;
   flex-flow: row nowrap;
+  align-items: center;
 }
 
 .image {
@@ -11,6 +12,6 @@
 
 .credits {
   font-family: "FranklinGothicBook";
-  padding: 1rem 0rem;
+  padding: 0rem 1rem;
   color: #d0a127;
 }
