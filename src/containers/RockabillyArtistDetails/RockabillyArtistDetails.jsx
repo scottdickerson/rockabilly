@@ -21,6 +21,7 @@ const RockabillyArtistDetails = ({
     <SiteDetails
       isOpen
       onCloseSite={onCloseSite}
+      className={styles.siteDetails}
       leftPane={
         detailImage ? (
           <SitePhoto

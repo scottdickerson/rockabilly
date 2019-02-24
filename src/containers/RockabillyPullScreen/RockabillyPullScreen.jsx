@@ -9,7 +9,7 @@ import { ROUTES } from "../../constants/constants";
 class RockabillyPullScreen extends React.Component {
   showSelection = () => {
     const { history } = this.props;
-    history.push(ROUTES.OVERVIEW);
+    history.push(ROUTES.MAINSCREEN);
   };
   render() {
     return (

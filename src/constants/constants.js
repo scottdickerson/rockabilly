@@ -7,6 +7,5 @@ export const ANIMATION_ACTIONS = {
 export const ROUTES = {
   PULLSCREEN: "/",
   MAINSCREEN: "/main",
-  OVERVIEW: "/main/overview",
   DETAILS: "/main/details/:id"
 };

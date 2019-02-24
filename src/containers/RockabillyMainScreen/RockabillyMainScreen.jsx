@@ -35,7 +35,7 @@ class RockabillyMainScreen extends React.Component {
         <TopTitle className={styles.rockabillyTitle} imageURL={titleImage} />
         <Route
           exact
-          path={ROUTES.OVERVIEW}
+          path={ROUTES.MAINSCREEN}
           render={() => (
             <Fragment>
               <Intro

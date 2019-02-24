@@ -12,6 +12,7 @@ class SiteDetails extends Component {
     leftPane: PropTypes.node.isRequired,
     isOpen: PropTypes.bool.isRequired,
     onCloseSite: PropTypes.func.isRequired,
+    className: PropTypes.string,
     contentClassName: PropTypes.string
   };
 
@@ -25,12 +26,13 @@ class SiteDetails extends Component {
       rightPane,
       leftPane,
       onCloseSite,
+      className,
       contentClassName,
       animate
     } = this.props;
 
     const details = (
-      <div className={styles.siteDetails}>
+      <div className={classnames(styles.siteDetails, className)}>
         <div className={classnames(styles.siteDetailContent, contentClassName)}>
           <div className={styles.siteDetailBackground} />
           <div className={styles.leftPane}>{leftPane}</div>
