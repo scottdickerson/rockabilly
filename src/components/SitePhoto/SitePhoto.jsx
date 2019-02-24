@@ -5,14 +5,14 @@ import dottedSeparator from "./img/03InternalPage-CreditLineDividerDots@2x.png";
 
 const propTypes = {
   src: PropTypes.string.isRequired,
-  photoCredit: PropTypes.node.isRequired
+  caption: PropTypes.node.isRequired
 };
 
-const SitePhoto = ({ src, photoCredit }) => (
+const SitePhoto = ({ src, caption }) => (
   <div className={styles.artistPhoto}>
-    <img className={styles.image} src={src} alt={photoCredit} />
+    <img className={styles.image} src={src} alt={caption} />
     <img className={styles.separator} src={dottedSeparator} alt="" />
-    <div className={styles.caption}>{photoCredit}</div>
+    <div className={styles.caption}>{caption}</div>
   </div>
 );
 

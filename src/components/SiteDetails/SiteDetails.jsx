@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { CSSTransition } from "react-transition-group";
 import ButtonClose from "./img/Button-Close-X.png";
+import classnames from "classnames";
 
 import styles from "./SiteDetails.module.css";
 
@@ -10,7 +11,8 @@ class SiteDetails extends Component {
     rightPane: PropTypes.node.isRequired,
     leftPane: PropTypes.node.isRequired,
     isOpen: PropTypes.bool.isRequired,
-    onCloseSite: PropTypes.func.isRequired
+    onCloseSite: PropTypes.func.isRequired,
+    contentClassName: PropTypes.string
   };
 
   static defaultProps = {
@@ -18,11 +20,18 @@ class SiteDetails extends Component {
   };
 
   render() {
-    const { isOpen, rightPane, leftPane, onCloseSite, animate } = this.props;
+    const {
+      isOpen,
+      rightPane,
+      leftPane,
+      onCloseSite,
+      contentClassName,
+      animate
+    } = this.props;
 
     const details = (
       <div className={styles.siteDetails}>
-        <div className={styles.siteDetailContent}>
+        <div className={classnames(styles.siteDetailContent, contentClassName)}>
           <div className={styles.siteDetailBackground} />
           <div className={styles.leftPane}>{leftPane}</div>
           <div className={styles.rightPane}>{rightPane}</div>

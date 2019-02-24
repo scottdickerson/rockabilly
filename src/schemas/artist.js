@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 const ArtistSchema = {
-  id: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.node.isRequired,
   thumbnail: PropTypes.string.isRequired,

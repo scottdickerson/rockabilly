@@ -3,10 +3,6 @@
   flex-flow: column nowrap;
 }
 
-.image {
-  width: 507px;
-}
-
 .separator {
   padding: 2rem;
   width: 613px;
