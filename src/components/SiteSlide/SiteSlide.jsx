@@ -10,8 +10,8 @@ class SiteSlide extends Component {
   };
 
   handleClick = event => {
-    const { id, onClick } = this.props;
-    onClick(id, event);
+    const { onClick } = this.props;
+    onClick(this.props, event);
   };
 
   render() {

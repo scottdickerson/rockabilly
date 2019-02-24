@@ -6,7 +6,7 @@ import styles from "./PullScreen.module.css";
 class PullScreen extends React.Component {
   showSelection = () => {
     const { history } = this.props;
-    history.push(ROUTES.MAINSCREEN);
+    history.push(ROUTES.OVERVIEW);
   };
 
   render() {

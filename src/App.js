@@ -32,13 +32,6 @@ class App extends React.Component {
     history.push(ROUTES.PULLSCREEN);
     window.location.reload(); // reload the whole page
   };
-  handleCloseSite = () => {
-    const { location } = this.props;
-    if (location.pathname !== ROUTES.MAINSCREEN) {
-      const { history } = this.props;
-      history.goBack();
-    }
-  };
   render() {
     return (
       <div>
