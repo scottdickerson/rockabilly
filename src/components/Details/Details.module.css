@@ -23,8 +23,6 @@
 
 .separator {
   width: calc(100% - 4rem);
-  max-width: 600px;
-  margin: 0rem 2rem;
   display: block;
   padding-bottom: 2rem;
 }

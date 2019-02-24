@@ -27,6 +27,7 @@ const artists = [
 export default {
   component: RockabillyArtistDetails,
   props: {
-    selectedSite: artists[0]
+    selectedSite: artists[0],
+    onCloseSite: () => console.log("close the site!")
   }
 };

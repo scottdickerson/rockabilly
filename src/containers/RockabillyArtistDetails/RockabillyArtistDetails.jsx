@@ -6,17 +6,21 @@ import SitePhoto from "../../components/SitePhoto/SitePhoto";
 import Details from "../../components/Details/Details";
 import RockabillyAudio from "../RockabillyAudio/RockabillyAudio";
 import styles from "./RockabillyArtistDetails.module.css";
+import dividerSrc from "./img/03InternalPage-BlueDividerLines@2x.png";
 
 const propTypes = {
-  selectedSite: PropTypes.shape(ArtistSchema).isRequired
+  selectedSite: PropTypes.shape(ArtistSchema).isRequired,
+  onCloseSite: PropTypes.func.isRequired
 };
 
 const RockabillyArtistDetails = ({
-  selectedSite: { name, description, detailImage, audio }
+  selectedSite: { name, description, detailImage, audio },
+  onCloseSite
 }) => {
   return (
     <SiteDetails
       isOpen
+      onCloseSite={onCloseSite}
       leftPane={
         detailImage ? (
           <SitePhoto
@@ -32,8 +36,17 @@ const RockabillyArtistDetails = ({
       }
       rightPane={
         <Fragment>
-          <Details title={name} details={description} />
-          {audio ? <RockabillyAudio {...audio} /> : null}
+          <Details
+            detailsClassName={styles.details}
+            detailsTitleClassName={styles.detailsTitle}
+            detailsTextClassName={styles.detailsText}
+            separatorImgSrc={dividerSrc}
+            title={name}
+            details={description}
+          />
+          {audio ? (
+            <RockabillyAudio {...audio} className={styles.audioPlayer} />
+          ) : null}
         </Fragment>
       }
     />

@@ -19,7 +19,8 @@
   text-transform: uppercase;
   padding-bottom: 2rem;
   font-family: BuiltTitling;
-  letter-spacing: 4px;
+  letter-spacing: 8px;
+  font-weight: bold;
 }
 
 .siteCarouselPositioner {

@@ -21,14 +21,16 @@
 }
 
 .leftPane {
-  flex: 1 1 55%;
+  flex: 1 1 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative; /* allows us to absolutely position stuff within this */
 }
 
 .rightPane {
-  flex: 1 1 45%;
+  flex: 1 1 50%;
+  position: relative; /* allows us to absolutely position stuff within this */
 }
 
 .siteDetailBackground {

@@ -12,16 +12,23 @@ const propTypes = {
   performedBy: PropTypes.node.isRequired
 };
 
-const RockabillyAudio = ({ src, songTitle, writtenBy, performedBy }) => {
+const RockabillyAudio = ({
+  src,
+  songTitle,
+  writtenBy,
+  performedBy,
+  ...others
+}) => {
   const credits = (
     <div className={styles.credits}>
       <div>{songTitle}</div>
-      <div>{writtenBy}</div>
-      <div>{performedBy}</div>
+      <div>Written by: {writtenBy}</div>
+      <div>Performed by: {performedBy}</div>
     </div>
   );
   return (
     <AudioPlayer
+      {...others}
       toggleButton={toggleButton}
       credits={credits}
       soundFile={src}

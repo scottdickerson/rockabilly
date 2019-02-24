@@ -2,3 +2,23 @@
   display: flex;
   flex-flow: column nowrap;
 }
+.details {
+  padding-top: 1rem;
+}
+.detailsText {
+  color: #ffffff;
+  font-family: "FranklinGothicBook";
+  font-size: 19px;
+}
+.detailsTitle {
+  font-family: BuiltTitling;
+  letter-spacing: 8px;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.audioPlayer {
+  position: absolute;
+  bottom: 1rem;
+  padding-left: 3rem;
+}
