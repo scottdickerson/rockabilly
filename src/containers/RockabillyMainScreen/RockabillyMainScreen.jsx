@@ -56,14 +56,13 @@ class RockabillyMainScreen extends React.Component {
         <Route
           exact
           path={ROUTES.DETAILS}
-          render={() =>
-            selectedSite ? (
-              <RockabillyArtistDetails
-                selectedSite={selectedSite}
-                onCloseSite={this.handleCloseSite}
-              />
-            ) : null
-          }
+          children={({ match }) => (
+            <RockabillyArtistDetails
+              isOpen={match && match.isExact}
+              selectedSite={selectedSite}
+              onCloseSite={this.handleCloseSite}
+            />
+          )}
         />
       </MainScreen>
     );
