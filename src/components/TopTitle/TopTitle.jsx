@@ -6,7 +6,7 @@ import classnames from "classnames";
 
 const propTypes = {
   imageURL: PropTypes.string.isRequired,
-  children: PropTypes.node.isRequired
+  children: PropTypes.node
 };
 
 const TopTitle = props => (

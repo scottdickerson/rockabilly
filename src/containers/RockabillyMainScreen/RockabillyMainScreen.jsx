@@ -1,19 +1,21 @@
-import React from "react";
+import React, { Fragment } from "react";
 import MainScreen from "../../components/MainScreen/MainScreen";
 import Intro from "../../components/Intro/Intro";
 import TopTitle from "../../components/TopTitle/TopTitle";
 import titleImage from "./img/02CarouselBanner@2x.png";
 import RockabillyCarousel from "../RockabillyCarousel/RockabillyCarousel";
 
-import { withRouter } from "react-router";
+import { Route, withRouter } from "react-router";
 import { ROUTES } from "../../constants/constants";
-import ArtistSchema from "../../schemas/artist";
 import styles from "./RockabillyMainScreen.module.css";
 
 class RockabillyMainScreen extends React.Component {
-  static propTypes = {
-    selectedSite: ArtistSchema
+  state = {
+    selectedSiteIndex: 0
   };
+  handleSiteChanged = (previousIndex, selectedSiteIndex) =>
+    this.setState({ selectedSiteIndex });
+
   handleSelection = index => {
     const { history } = this.props;
     switch (index) {
@@ -31,24 +33,26 @@ class RockabillyMainScreen extends React.Component {
     }
   };
   render() {
-    const { selectedSite } = this.props;
+    const { selectedSiteIndex } = this.state;
     return (
       <MainScreen className={styles.rockabillyMain}>
         <TopTitle className={styles.rockabillyTitle} imageURL={titleImage} />
-        <Intro
-          className={styles.rockabillyIntro}
-          textClassName={styles.rockabillyIntroText}
-          detailsClassName={styles.rockabillyIntroDetails}
-          intro="Rockabilly is important!"
-          details="It's an Arkansas tradition y'all!"
-        />
-        <RockabillyCarousel
-          siteTapped={this.handleSelection}
-          siteChanged={site =>
-            console.log(`site changed: ${JSON.stringify(site)}`)
-          }
-          selectedSite={selectedSite}
-        />
+        <Route exact path={ROUTES.MAINSCREEN}>
+          <Fragment>
+            <Intro
+              className={styles.rockabillyIntro}
+              textClassName={styles.rockabillyIntroText}
+              detailsClassName={styles.rockabillyIntroDetails}
+              intro="Rockabilly is important!"
+              details="It's an Arkansas tradition y'all!"
+            />
+            <RockabillyCarousel
+              siteTapped={this.handleSelection}
+              siteChanged={this.handleSiteChanged}
+              selectedSiteIndex={selectedSiteIndex}
+            />
+          </Fragment>
+        </Route>
       </MainScreen>
     );
   }

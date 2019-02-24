@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 import Slider from "react-slick";
 import React from "react";
-import _ from "lodash";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -12,15 +11,16 @@ import ArtistSchema from "../../schemas/artist";
 
 class SiteCarousel extends React.Component {
   static propTypes = {
-    sites: PropTypes.arrayOf(ArtistSchema).isRequired,
+    sites: PropTypes.arrayOf(PropTypes.shape(ArtistSchema)).isRequired,
     siteTapped: PropTypes.func.isRequired,
     siteChanged: PropTypes.func.isRequired,
     visible: PropTypes.bool,
-    selectedSite: ArtistSchema.isRequired
+    selectedSiteIndex: PropTypes.number
   };
 
   static defaultProps = {
-    visible: true
+    visible: true,
+    selectedSiteIndex: 0
   };
 
   constructor(props) {
@@ -40,7 +40,7 @@ class SiteCarousel extends React.Component {
       focusOnSelect: true,
       draggable: true,
       swipeToSlide: true,
-      initialSlide: _.findIndex(props.sites, props.selectedSite)
+      initialSlide: props.selectedSiteIndex
     };
   }
 
@@ -64,12 +64,12 @@ class SiteCarousel extends React.Component {
   };
 
   render() {
-    const { visible, siteChanged, selectedSite, sites } = this.props;
+    const { visible, siteChanged, selectedSiteIndex, sites } = this.props;
 
     const style = { visibility: visible ? "visible" : "hidden" };
     return (
       <div className="siteCarouselPositioner" style={style}>
-        <div className="siteCarouselTitle">{selectedSite.name}</div>
+        <div className="siteCarouselTitle">{sites[selectedSiteIndex].name}</div>
         <div className="siteCarouselBackground" />
         <div
           className="siteCarousel"

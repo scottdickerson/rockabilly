@@ -4,7 +4,7 @@
 }
 .introRecord {
   position: absolute;
-  top: 58%;
+  bottom: -350px; /* half the height of the record */
   left: 0;
   right: 0;
   z-index: 1;

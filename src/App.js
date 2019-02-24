@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { Switch, Route, withRouter } from "react-router";
 import { ROUTES } from "./constants/constants";
 import RockabillyPullScreen from "./containers/RockabillyPullScreen/RockabillyPullScreen";
+import RockabillyMainScreen from "./containers/RockabillyMainScreen/RockabillyMainScreen";
 
 class App extends React.Component {
   static propTypes = {
@@ -39,7 +40,6 @@ class App extends React.Component {
     }
   };
   render() {
-    const { location } = this.props;
     return (
       <div>
         <Switch>
@@ -48,7 +48,7 @@ class App extends React.Component {
             path={ROUTES.PULLSCREEN}
             component={RockabillyPullScreen}
           />
-          {/*<Route path={ROUTES.MAINSCREEN} component={SpyingMainScreen} />*/}
+          <Route path={ROUTES.MAINSCREEN} component={RockabillyMainScreen} />
         </Switch>
       </div>
     );

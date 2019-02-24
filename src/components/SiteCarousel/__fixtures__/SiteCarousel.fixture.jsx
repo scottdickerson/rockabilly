@@ -19,6 +19,6 @@ export default {
     sites,
     siteTapped: site => console.log(`tapped Site: ${JSON.stringify(site)}`),
     siteChanged: site => console.log(`changed Site: ${JSON.stringify(site)}`),
-    selectedSite: sites[2]
+    selectedSiteIndex: 2
   }
 };
