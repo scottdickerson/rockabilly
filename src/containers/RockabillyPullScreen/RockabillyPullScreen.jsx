@@ -5,6 +5,8 @@ import introBannerSrc from "./img/01PullScreen-IntroBanner@2x.png";
 import introRecordSrc from "./img/01PullScreen-Record@2x.png";
 import styles from "./RockabillyPullScreen.module.css";
 import { ROUTES } from "../../constants/constants";
+import "animate.css/animate.min.css";
+import classnames from "classnames";
 
 class RockabillyPullScreen extends React.Component {
   showSelection = () => {
@@ -20,6 +22,16 @@ class RockabillyPullScreen extends React.Component {
             alt="Local Rockabilly Legends"
             className={styles.introBanner}
           />
+          <div
+            className={classnames(
+              styles.callToAction,
+              "animated",
+              "pulse",
+              "infinite"
+            )}
+          >
+            Touch the screen to begin.
+          </div>
         </PullScreen>
         <img
           src={introRecordSrc}

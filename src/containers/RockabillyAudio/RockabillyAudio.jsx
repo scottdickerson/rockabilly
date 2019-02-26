@@ -29,6 +29,7 @@ const RockabillyAudio = ({
   return (
     <AudioPlayer
       {...others}
+      loop
       toggleButton={toggleButton}
       credits={credits}
       soundFile={src}

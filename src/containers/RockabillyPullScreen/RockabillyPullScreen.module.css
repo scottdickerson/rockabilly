@@ -2,9 +2,19 @@
   max-height: 330px;
   z-index: 2;
 }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 .introRecord {
   position: absolute;
-  bottom: -350px; /* half the height of the record */
+  bottom: -359px; /* half the height of the record */
   left: 0;
   right: 0;
   z-index: 1;
@@ -12,4 +22,15 @@
   margin-right: auto;
   max-height: 718px;
   cursor: pointer;
+  animation: rotation 5s infinite linear;
+}
+
+.callToAction {
+  color: #66c4a4;
+  font-family: "LiberationSans";
+  font-size: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3rem;
+  z-index: 30;
 }

@@ -10,5 +10,5 @@ export default {
       thumbnail: billyLeeRileySrc
     }
   },
-  url: "/"
+  url: "/main"
 };

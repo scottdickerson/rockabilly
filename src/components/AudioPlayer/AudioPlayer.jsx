@@ -17,7 +17,8 @@ const AudioPlayer = ({
   autoPlay,
   toggleButton,
   credits,
-  className
+  className,
+  ...others
 }) => {
   const [playing, setPlaying] = useState(false);
 
@@ -35,6 +36,7 @@ const AudioPlayer = ({
       <Sound
         url={soundFile}
         playStatus={autoPlay || playing ? "PLAYING" : "PAUSED"}
+        {...others}
       />
       <div className={styles.credits}>{credits}</div>
     </div>

@@ -42,8 +42,8 @@ class RockabillyMainScreen extends React.Component {
                 className={styles.rockabillyIntro}
                 textClassName={styles.rockabillyIntroText}
                 detailsClassName={styles.rockabillyIntroDetails}
-                intro="Rockabilly is important!"
-                details="It's an Arkansas tradition y'all!"
+                intro="Scroll below to learn more about the local men and women who made their marks in the rockabilly scene."
+                details="Northeast Arkansas was home to many rockabilly musicians, from one-hit wonders to performers who made their entire careers in the music industry. All of them contributed to a revolutionary sound that transformed the world of music and gave rise to rock and roll. "
               />
               <RockabillyCarousel
                 siteTapped={this.handleSelection}
