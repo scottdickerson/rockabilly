@@ -19,7 +19,7 @@ class RockabillyPullScreen extends React.Component {
   render() {
     return (
       <Fragment>
-        <PullScreen title="Arkansas State University Museum Presents">
+        <PullScreen title="Arkansas State University Museum">
           <LottieControl
             animationData={animationData}
             className={styles.introBanner}
