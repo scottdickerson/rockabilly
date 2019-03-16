@@ -29,6 +29,8 @@ export default class LottieControl extends React.Component {
         payload: PropTypes.string // extra information about the action
       })
     ),
+    /** optional callback to listen for clicks */
+    onClick: PropTypes.func,
     imageMap: PropTypes.arrayOf(
       PropTypes.shape({ name: PropTypes.string, path: PropTypes.string })
     ),
@@ -180,7 +182,10 @@ export default class LottieControl extends React.Component {
       isLooping,
       actions,
       isDebug,
-      lazyLoadAnimations
+      lazyLoadAnimations,
+      onClick,
+      className,
+      ...other // pass through all other props directly to Lottie
     } = this.props;
     const { isPaused, currentFrame, isPromptShowing, isStopped } = this.state;
 
@@ -195,7 +200,7 @@ export default class LottieControl extends React.Component {
     };
 
     return (
-      <div>
+      <div onClick={onClick} className={className}>
         <Lottie
           options={defaultOptions}
           isPaused={isPaused}
@@ -213,6 +218,7 @@ export default class LottieControl extends React.Component {
               callback: this.handleComplete
             }
           ]}
+          {...other}
         />
         {actions &&
           actions // are there any sound files that match the current frame?
