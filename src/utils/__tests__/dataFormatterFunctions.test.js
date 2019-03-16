@@ -1,4 +1,4 @@
-import { mapDataToImagesAndAudio } from "../dataFormatterFunctions";
+import { mapDataToImagesAndAudio } from "../dataFormatterFunctions.mjs";
 import artists from "../../data/LocalLegends.json";
 
 describe("dataFormatterFunction", () => {

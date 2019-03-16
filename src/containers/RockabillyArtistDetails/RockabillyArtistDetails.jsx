@@ -9,9 +9,7 @@ import RockabillyAudio from "../RockabillyAudio/RockabillyAudio";
 import styles from "./RockabillyArtistDetails.module.css";
 import dividerSrc from "./img/03InternalPage-BlueDividerLines@2x.png";
 
-import sites from "../../data/LocalLegends.json";
-import { mapDataToImagesAndAudio } from "../../utils/dataFormatterFunctions";
-const artists = mapDataToImagesAndAudio(sites);
+import artists from "../../data/LocalLegends.json";
 
 const propTypes = {
   selectedSite: PropTypes.shape(ArtistSchema),

@@ -1,14 +1,11 @@
 import SiteCarousel from "../SiteCarousel";
-import { mapDataToImagesAndAudio } from "../../../utils/dataFormatterFunctions";
 
-import localArtists from "../../../data/LocalLegends.json";
-
-const sites = mapDataToImagesAndAudio(localArtists);
+import artist from "../../../data/LocalLegends.json";
 
 export default {
   component: SiteCarousel,
   props: {
-    sites,
+    artist,
     siteTapped: site => console.log(`tapped Site: ${JSON.stringify(site)}`),
     siteChanged: site => console.log(`changed Site: ${JSON.stringify(site)}`),
     selectedSiteIndex: 2

@@ -1,15 +1,13 @@
 import RockabillyArtistDetails from "../RockabillyArtistDetails";
-import { mapDataToImagesAndAudio } from "../../../utils/dataFormatterFunctions";
 
 import localArtists from "../../../data/LocalLegends.json";
 
-const artists = mapDataToImagesAndAudio(localArtists);
 export default [
   {
     component: RockabillyArtistDetails,
     name: "vertical image",
     props: {
-      selectedSite: artists[0],
+      selectedSite: localArtists[0],
       isOpen: true,
       onCloseSite: () => console.log("close the site!")
     }
@@ -18,7 +16,7 @@ export default [
     component: RockabillyArtistDetails,
     name: "horizontal image",
     props: {
-      selectedSite: artists[1],
+      selectedSite: localArtists[1],
       isOpen: true,
       onCloseSite: () => console.log("close the site!")
     }
