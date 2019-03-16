@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { withRouter } from "react-router";
 import PropTypes from "prop-types";
 import ArtistSchema from "../../schemas/artist";
+import ReactHTMLParser from "react-html-parser";
 import SiteDetails from "../../components/SiteDetails/SiteDetails";
 import SitePhoto from "../../components/SitePhoto/SitePhoto";
 import Details from "../../components/Details/Details";
@@ -38,8 +39,8 @@ const RockabillyArtistDetails = ({
             alt={detailImage.description}
             caption={
               <div className={styles.caption}>
-                <div>{detailImage.description}</div>
-                <div>{detailImage.photoCredit}</div>
+                <div>{ReactHTMLParser(detailImage.description)}</div>
+                <div>{ReactHTMLParser(detailImage.photoCredit)}</div>
               </div>
             }
           />
