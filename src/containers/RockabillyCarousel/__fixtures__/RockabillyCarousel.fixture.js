@@ -1,5 +1,5 @@
 import RockabillyCarousel from "../RockabillyCarousel";
-import billyLeeRileySrc from "../img/234x234-BillyLeeRiley.png";
+import artist from "../../../data/LocalLegends.json";
 
 export default {
   component: RockabillyCarousel,
@@ -12,8 +12,8 @@ export default {
     },
     selectedSite: {
       id: 0,
-      name: "Billy Lee Riley",
-      thumbnail: billyLeeRileySrc
+      thumbnail: artist[0].thumbnail,
+      name: "Billy Lee Riley"
     }
   }
 };

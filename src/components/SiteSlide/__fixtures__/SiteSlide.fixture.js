@@ -1,12 +1,13 @@
 import SiteSlide from "../SiteSlide";
-import billyLeeRileySrc from "../../../containers/RockabillyCarousel/img/234x234-BillyLeeRiley.png";
+import { mapDataToImagesAndAudio } from "../../../utils/dataFormatterFunctions";
 
+import localArtists from "../../../data/LocalLegends.json";
+
+const sites = mapDataToImagesAndAudio(localArtists);
 export default {
   component: SiteSlide,
   props: {
     onClick: id => console.log(`clicked! ${id}`),
-    id: "myid",
-    thumbnail: billyLeeRileySrc,
-    name: "Billy Lee Riley"
+    ...sites[0]
   }
 };

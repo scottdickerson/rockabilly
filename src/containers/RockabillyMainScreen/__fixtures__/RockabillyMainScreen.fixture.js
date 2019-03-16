@@ -1,14 +1,13 @@
 import RockabillyMainScreen from "../RockabillyMainScreen";
-import billyLeeRileySrc from "../../RockabillyCarousel/img/234x234-BillyLeeRiley.png";
+import { mapDataToImagesAndAudio } from "../../../utils/dataFormatterFunctions";
 
+import localArtists from "../../../data/LocalLegends.json";
+
+const sites = mapDataToImagesAndAudio(localArtists);
 export default {
   component: RockabillyMainScreen,
   props: {
-    selectedSite: {
-      id: 0,
-      name: "Billy Lee Riley",
-      thumbnail: billyLeeRileySrc
-    }
+    selectedSite: sites[0]
   },
   url: "/main"
 };
