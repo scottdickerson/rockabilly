@@ -10,12 +10,12 @@ const propTypes = {
   imageClassName: PropTypes.string
 };
 
-const SitePhoto = ({ src, caption, imageClassName }) => (
+const SitePhoto = ({ caption, imageClassName, alt, ...others }) => (
   <div className={styles.artistPhoto}>
     <img
       className={classnames(styles.image, imageClassName)}
-      src={src}
-      alt={caption}
+      {...others}
+      alt={alt}
     />
     <img className={styles.separator} src={dottedSeparator} alt="" />
     <div className={styles.caption}>{caption}</div>

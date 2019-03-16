@@ -10,6 +10,7 @@ export default [
     name: "vertical image",
     props: {
       selectedSite: artists[0],
+      isOpen: true,
       onCloseSite: () => console.log("close the site!")
     }
   },
@@ -18,6 +19,7 @@ export default [
     name: "horizontal image",
     props: {
       selectedSite: artists[1],
+      isOpen: true,
       onCloseSite: () => console.log("close the site!")
     }
   }
