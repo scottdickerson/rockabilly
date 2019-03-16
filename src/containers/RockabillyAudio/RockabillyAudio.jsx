@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import AudioPlayer from "../../components/AudioPlayer/AudioPlayer";
+import ReactHTMLParser from "react-html-parser";
 import styles from "./RockabillyAudio.module.css";
 
 import toggleButton from "./img/03InternalPage-ListenButton@2x.png";
@@ -21,7 +22,7 @@ const RockabillyAudio = ({
 }) => {
   const credits = (
     <div className={styles.credits}>
-      <div>{songTitle}</div>
+      <div>{ReactHTMLParser(songTitle)}</div>
       <div>Written by: {writtenBy}</div>
       <div>Performed by: {performedBy}</div>
     </div>

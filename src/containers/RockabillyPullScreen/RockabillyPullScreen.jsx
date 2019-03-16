@@ -22,14 +22,7 @@ class RockabillyPullScreen extends React.Component {
             alt="Local Rockabilly Legends"
             className={styles.introBanner}
           />
-          <div
-            className={classnames(
-              styles.callToAction,
-              "animated",
-              "pulse",
-              "infinite"
-            )}
-          >
+          <div className={classnames(styles.callToAction)}>
             Touch the screen to begin.
           </div>
         </PullScreen>
