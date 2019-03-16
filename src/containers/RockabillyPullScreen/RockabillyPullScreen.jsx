@@ -1,12 +1,15 @@
 import React, { Fragment } from "react";
 import { withRouter } from "react-router";
 import PullScreen from "../../components/PullScreen/PullScreen";
-import introBannerSrc from "./img/01PullScreen-IntroBanner@2x.png";
+import LottieControl from "../../components/LottieControl/LottieControl";
+import animationData from "./animation/01PullScreen-IntroBanner.json";
 import introRecordSrc from "./img/01PullScreen-Record@2x.png";
 import styles from "./RockabillyPullScreen.module.css";
 import { ROUTES } from "../../constants/constants";
 import "animate.css/animate.min.css";
-import classnames from "classnames";
+
+import glowMask from "./animation/images/glow_mask.png";
+import rockabillyMask from "./animation/images/rockabilly_glow_mask.png";
 
 class RockabillyPullScreen extends React.Component {
   showSelection = () => {
@@ -16,15 +19,17 @@ class RockabillyPullScreen extends React.Component {
   render() {
     return (
       <Fragment>
-        <PullScreen>
-          <img
-            src={introBannerSrc}
-            alt="Local Rockabilly Legends"
+        <PullScreen title="Arkansas State University Museum Presents">
+          <LottieControl
+            animationData={animationData}
             className={styles.introBanner}
+            imageMap={[
+              { name: "glow_mask.png", path: glowMask },
+              { name: "rockabilly_glow_mask.png", path: rockabillyMask }
+            ]}
+            isLooping
           />
-          <div className={classnames(styles.callToAction)}>
-            Touch the screen to begin.
-          </div>
+          <div className={styles.callToAction}>Touch the screen to begin.</div>
         </PullScreen>
         <img
           src={introRecordSrc}

@@ -1,6 +1,5 @@
 .introBanner {
   max-height: 330px;
-  z-index: 2;
 }
 
 @keyframes rotation {
