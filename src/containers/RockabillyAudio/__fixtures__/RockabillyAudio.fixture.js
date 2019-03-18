@@ -1,5 +1,5 @@
 import RockabillyAudio from "../RockabillyAudio";
-import billySong from "../mp3s/01 trouble bound biley lee riley.mp3";
+import billySong from "./mp3s/01 trouble bound biley lee riley.mp3";
 
 export default {
   component: RockabillyAudio,

@@ -3,8 +3,10 @@ import PropTypes from "prop-types";
 import AudioPlayer from "../../components/AudioPlayer/AudioPlayer";
 import ReactHTMLParser from "react-html-parser";
 import styles from "./RockabillyAudio.module.css";
-
-import toggleButton from "./img/03InternalPage-ListenButton@2x.png";
+import glowingButton from "./animation/pressToListen_halfsize_glow.json";
+import playingButton from "./animation/pressToListen_halfsize_playingNote.json";
+import LottieControl from "../../components/LottieControl/LottieControl";
+import listenGlow from "./animation/images/listen_glow.png";
 
 const propTypes = {
   src: PropTypes.string.isRequired,
@@ -31,7 +33,17 @@ const RockabillyAudio = ({
     <AudioPlayer
       {...others}
       loop
-      toggleButton={toggleButton}
+      renderToggleButton={isPlaying =>
+        !isPlaying ? (
+          <LottieControl
+            animationData={glowingButton}
+            imageMap={[{ name: "listen_glow.png", path: listenGlow }]}
+            isLooping
+          />
+        ) : (
+          <LottieControl animationData={playingButton} isLooping />
+        )
+      }
       credits={credits}
       soundFile={src}
     />

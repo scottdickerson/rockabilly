@@ -1,5 +1,5 @@
 {
-  "name": "spying-with-stem",
+  "name": "rockabilly",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,12 +37,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
   "devDependencies": {
     "csvtojson": "^2.0.8",
     "gh-pages": "^2.0.1",
