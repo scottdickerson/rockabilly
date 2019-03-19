@@ -6,8 +6,6 @@ import styles from "./PullScreen.module.css";
 
 class PullScreen extends React.Component {
   static propTypes = {
-    /** Optional string title to be rendered within the call to action, the title might be embedded within the children image */
-    title: PropTypes.string,
     children: PropTypes.node.isRequired
   };
   showSelection = () => {
@@ -16,11 +14,11 @@ class PullScreen extends React.Component {
   };
 
   render() {
-    const { children, title } = this.props;
+    const { children } = this.props;
     return (
       <div className={styles.pullScreen} onClick={this.showSelection}>
         <div className={styles.titleSection}>
-          {title ? <div className={styles.title}>{title}</div> : null}
+         
           {children}
         </div>
       </div>

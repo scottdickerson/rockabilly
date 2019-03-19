@@ -15,17 +15,17 @@
 .detailsText {
   color: #ffffff;
   font-family: "FranklinGothicBook";
-  font-size: 19px;
+  font-size: 24px;
 }
 .detailsTitle {
   font-family: BuiltTitling;
   letter-spacing: 8px;
-  font-size: 46px;
+  font-size: 50px;
   font-weight: bold;
 }
 
 .audioPlayer {
   position: absolute;
-  bottom: 3rem;
+  bottom: 1rem;
   padding-left: 3rem;
 }

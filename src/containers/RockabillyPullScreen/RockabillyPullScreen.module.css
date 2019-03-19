@@ -11,6 +11,22 @@
   }
 }
 
+.title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  width: 100%;
+  margin: auto;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+}
+
 .introRecord {
   position: absolute;
   bottom: -359px; /* half the height of the record */
