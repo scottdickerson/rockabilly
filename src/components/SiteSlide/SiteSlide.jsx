@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import "./SiteSlide.module.css";
 
 class SiteSlide extends Component {
   static propTypes = {
@@ -17,7 +18,7 @@ class SiteSlide extends Component {
   render() {
     const { id, thumbnail, name } = this.props;
     return (
-      <div className="slide" onClick={this.handleClick}>
+      <div className="slide" tabIndex="0" onClick={this.handleClick}>
         <img
           draggable="false"
           id={id}

@@ -2,13 +2,18 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
+}
+
+.button {
   cursor: pointer;
 }
 
-.image {
-  width: 257px;
-  height: 85px;
-  cursor: pointer;
+.button:focus,
+.button:active {
+  -webkit-animation: scale 0.4s ease-in-out 0s;
+  -moz-animation: scale 0.4s ease-in-out 0s;
+  -o-animation: scale 0.4s ease-in-out 0s;
+  animation: scale 0.4s ease-in-out 0s;
 }
 
 .credits {
@@ -20,4 +25,46 @@
 .halfSize {
   width: 287px;
   height: 95px;
+}
+
+/* bounce for buttons */
+
+@keyframes scale {
+  0% {
+  }
+  50% {
+    transform: scale(1.25);
+  }
+}
+
+@-webkit-keyframes scale {
+  0% {
+  }
+  50% {
+    -webkit-transform: scale(1.25);
+  }
+}
+
+@-moz-keyframes scale {
+  0% {
+  }
+  50% {
+    -moz-transform: scale(1.25);
+  }
+}
+
+@-ms-keyframes scale {
+  0% {
+  }
+  50% {
+    -ms-transform: scale(1.25);
+  }
+}
+
+@-o-keyframes scale {
+  0% {
+  }
+  50% {
+    -o-transform: scale(1.25);
+  }
 }

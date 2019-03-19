@@ -38,7 +38,7 @@ const AudioPlayer = ({
   }
   return (
     <div className={classnames(styles.audioPlayer, className)}>
-      {React.cloneElement(renderedToggleButton, { onClick })}
+      {React.cloneElement(renderedToggleButton, { onClick, className: styles.button })}
       <Sound
         url={soundFile}
         playStatus={autoPlay || playing ? "PLAYING" : "PAUSED"}
