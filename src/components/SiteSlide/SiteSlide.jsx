@@ -18,13 +18,15 @@ class SiteSlide extends Component {
   render() {
     const { id, thumbnail, name } = this.props;
     return (
-      <div className="slide" tabIndex="0" onClick={this.handleClick}>
+      <div className="slide" onClick={this.handleClick}>
         <img
           draggable="false"
           id={id}
+          tabIndex="0"
           className="innerSlide"
           src={thumbnail}
           alt={name}
+          onTouchStart={evt => evt.currentTarget.focus()}
         />
       </div>
     );
