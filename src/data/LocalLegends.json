@@ -57,7 +57,7 @@
     "detailImage": {
       "src": "/detailImages/616x507-CharlieRich.png",
       "description": "Charlie Rich, 1968",
-      "photoCredit": "Pictorial Press Ltd / Alamy Stock Photo"
+      "photoCredit": "Pictorial Press Ltd | Alamy Stock Photo"
     },
     "audio": {
       "src": "/mp3s/04 Break Up Charlie Rich.mp3",
@@ -69,7 +69,7 @@
   },
   {
     "name": "Chuck Comer",
-    "description": "Chuck Comer was born in Arkansas in 1934, settling with his family in Newport in 1952. The following year, Comer won second prize in local radio station KNBY's talent contest, earning him a 15-minute show on the station three times a week. He used the time to showcase his guitar playing and went on to play small clubs throughout the 1950s. In 1959, he made his first recording, <i>Little More Lovin</i>, at the KLCN studio in Blytheville. Although Comer originally intended to perform <i>Little More Lovin</i> as a country ballad, he and his band played it in the rockabilly style “as a pure afterthought.” When Comer didn’t experience commercial success as a country singer, he chose to focus on his radio career instead. He worked as a disc jockey at KOSE in Osceola and KSUD in West Memphis before he passed away on January 11, 2013.",
+    "description": "Chuck Comer was born in Arkansas in 1934, settling with his family in Newport in 1952. The following year, Comer won second prize in local radio station KNBY&rsquo;s talent contest, earning him a 15-minute show on the station three times a week. He used the time to showcase his guitar playing and went on to play small clubs throughout the 1950s. In 1959, he made his first recording, <i>Little More Lovin</i>, at the KLCN studio in Blytheville. Although Comer originally intended to perform <i>Little More Lovin</i> as a country ballad, he and his band played it in the rockabilly style “as a pure afterthought.” When Comer didn’t experience commercial success as a country singer, he chose to focus on his radio career instead. He worked as a disc jockey at KOSE in Osceola and KSUD in West Memphis before he passed away on January 11, 2013.",
     "thumbnail": "/thumbnailImages/234x234-ChuckComer.png",
     "detailImage": {
       "src": "/detailImages/616x507-ChuckComer.png",
@@ -86,7 +86,7 @@
   },
   {
     "name": "Danny Chris Ivy",
-    "description": "Born in Newport on November 15, 1952, Danny Chris Ivy was a rockabilly musician who wrote and performed rockabilly music in the late 1960s or early 1970s, after the genre's heyday. He released <i>Do the Stop</i> around that time. Later, Ivy became an attorney and used the nickname \"The Rebel Lawyer.\" He died on February 17, 2017 in Fayetteville.",
+    "description": "Born in Newport on November 15, 1952, Danny Chris Ivy was a rockabilly musician who wrote and performed rockabilly music in the late 1960s or early 1970s, after the genre&rsquo;s heyday. He released <i>Do the Stop</i> around that time. Later, Ivy became an attorney and used the nickname \"The Rebel Lawyer.\" He died on February 17, 2017 in Fayetteville.",
     "thumbnail": "/thumbnailImages/234x234-DannyChrisIvy.png",
     "detailImage": {
       "src": "/detailImages/616x507-DannyChrisIvy.png",
@@ -95,7 +95,7 @@
     },
     "audio": {
       "src": "/mp3s/06 Do the Stop Danny Chris Ivy.mp3",
-      "songTitle": "<i>Do the Stop</i>, The D.J.'s Choice, date unknown",
+      "songTitle": "<i>Do the Stop</i>, The D.J.&rsquo;s Choice, date unknown",
       "writtenBy": "Danny Chris Ivy",
       "performedBy": "Danny Chris Ivy"
     },
@@ -222,7 +222,7 @@
   },
   {
     "name": "Johnny Perrin",
-    "description": "Johnny Perrin of Jonesboro is another example of the persistence of rockabilly music in Northeast Arkansas after its popularity declined elsewhere. In 1966, he released <i>You Don't Give It Back</i> on Alley Records, a rockabilly tune that features vocals reminiscent of Elvis Presley's performances.",
+    "description": "Johnny Perrin of Jonesboro is another example of the persistence of rockabilly music in Northeast Arkansas after its popularity declined elsewhere. In 1966, he released <i>You Don't Give It Back</i> on Alley Records, a rockabilly tune that features vocals reminiscent of Elvis Presley&;s performances.",
     "thumbnail": "/thumbnailImages/234x234-JohnnyPerrin.png",
     "detailImage": {
       "src": "/detailImages/616x507-JohnnyPerrin.png",
@@ -239,7 +239,7 @@
   },
   {
     "name": "Joyce Green",
-    "description": "Born on March 2, 1940 in Bradford, Joyce Olivia Green learned her first guitar chords at nine years old. She and her siblings also sang in the local church and formed a trio that performed at local picnics and gatherings. After seeing Elvis Presley perform, Green knew she wanted to sing professionally. She made her radio debut in 1957 in Searcy, and a year later she began touring the Northeast Arkansas club scene. In 1959, she wrote the rockabilly revenge song <i>Black Cadillac</i> with her sister and recorded it at KLCN in Blytheville; the song would be her only hit. She went on a promotional tour with other rockabilly artists, backed by Larry Donn Gillihan's band and opening for Carl Perkins.",
+    "description": "Born on March 2, 1940 in Bradford, Joyce Olivia Green learned her first guitar chords at nine years old. She and her siblings also sang in the local church and formed a trio that performed at local picnics and gatherings. After seeing Elvis Presley perform, Green knew she wanted to sing professionally. She made her radio debut in 1957 in Searcy, and a year later she began touring the Northeast Arkansas club scene. In 1959, she wrote the rockabilly revenge song <i>Black Cadillac</i> with her sister and recorded it at KLCN in Blytheville; the song would be her only hit. She went on a promotional tour with other rockabilly artists, backed by Larry Donn Gillihan&rsquo;s band and opening for Carl Perkins.",
     "thumbnail": "/thumbnailImages/234x234-JoyceGreen.png",
     "detailImage": {
       "src": "/detailImages/616x507-JoyceGreen.png",
@@ -290,7 +290,7 @@
   },
   {
     "name": "Little Herbie Mayes",
-    "description": "Little Herbie Mayes of Paragould released the rockabilly song <i>Maybelline</i> in 1969 on Joe Lee's Jonesboro label, Alley Records. While most rockabilly artists had moved on to performing other genres of music by then, Mayes' <i>Maybelline</i> reflects how rockabilly music persisted in Northeast Arkansas well after its popularity declined in the rest of the United States.",
+    "description": "Little Herbie Mayes of Paragould released the rockabilly song <i>Maybelline</i> in 1969 on Joe Lee&rsquo;s Jonesboro label, Alley Records. While most rockabilly artists had moved on to performing other genres of music by then, Mayes&rsquo; <i>Maybelline</i> reflects how rockabilly music persisted in Northeast Arkansas well after its popularity declined in the rest of the United States.",
     "thumbnail": "/thumbnailImages/234x234-LittleHerbieMayes.png",
     "detailImage": {
       "src": "/detailImages/616x507-LittleHerbieMayes.png",
@@ -324,12 +324,12 @@
   },
   {
     "name": "Skeets McDonald",
-    "description": "Enos William McDonald was born on October 1, 1915 in Greenway and grew up on his father’s farm in Rector. His brother, Lynn, recalled that a 12-year-old Skeets traded a red hound dog for a guitar and six dollars. Best known as a country singer, McDonald also experimented with rockabilly in the 1950s. He released two rockabilly songs in 1956, <i>You Oughta See Grandma Rock</i> and <i>Heart Breakin’ Mama</i>. Though the songs did not do well commercially, according to music historian Charles K. Wolfe, \"[McDonald’s] music helped serve to bridge the gap between country and rock 'n' roll in the 1950s.” McDonald died on March 31, 1968.",
+    "description": "Enos William McDonald was born on October 1, 1915 in Greenway and grew up on his father’s farm in Rector. His brother, Lynn, recalled that a 12-year-old Skeets traded a red hound dog for a guitar and six dollars. Best known as a country singer, McDonald also experimented with rockabilly in the 1950s. He released two rockabilly songs in 1956, <i>You Oughta See Grandma Rock</i> and <i>Heart Breakin’ Mama</i>. Though the songs did not do well commercially, according to music historian Charles K. Wolfe, \"[McDonald’s] music helped serve to bridge the gap between country and rock &lsquo;n&rsquo; roll in the 1950s.” McDonald died on March 31, 1968.",
     "thumbnail": "/thumbnailImages/234x234-SkeetsMcDonald.png",
     "detailImage": {
       "src": "/detailImages/616x507-SkeetsMcDonald.png",
       "description": "Skeets McDonald, date unknown",
-      "photoCredit": "Pictorial Press Ltd / Alamy Stock Photo"
+      "photoCredit": "Pictorial Press Ltd | Alamy Stock Photo"
     },
     "audio": {
       "src": "/mp3s/20 Heart Breakin Mama Skeets McDonald.mp3",
@@ -409,7 +409,7 @@
   },
   {
     "name": "Wayne McGinnis",
-    "description": "Wayne McGinnis was born Robert Wayne McGinnis on January 6, 1932. Born and raised on a cotton farm near Osceola, he moved to Memphis in 1955 to start a music career.  There he performed as a duo with Billy Joe Miller, playing mainly jazz and country songs. He soon became a member of Slim Wallace's Dixie Ramblers, where fellow rockabillies Billy Lee Riley and Jack Clement also played. In July 1956, McGinnis released the rockabilly songs, <i>Rock, Roll and Rhythm</i> and <i>Lonesome Rhythm Blues</i>, on  Meteor Records. Later he founded and managed the Santo label. McGinnis died on August 19, 2013 in Jonesboro, Arkansas.",
+    "description": "Wayne McGinnis was born Robert Wayne McGinnis on January 6, 1932. Born and raised on a cotton farm near Osceola, he moved to Memphis in 1955 to start a music career.  There he performed as a duo with Billy Joe Miller, playing mainly jazz and country songs. He soon became a member of Slim Wallace&rsquo;s Dixie Ramblers, where fellow rockabillies Billy Lee Riley and Jack Clement also played. In July 1956, McGinnis released the rockabilly songs, <i>Rock, Roll and Rhythm</i> and <i>Lonesome Rhythm Blues</i>, on  Meteor Records. Later he founded and managed the Santo label. McGinnis died on August 19, 2013 in Jonesboro, Arkansas.",
     "thumbnail": "/thumbnailImages/234x234-WayneMcGinnis.png",
     "detailImage": {
       "src": "/detailImages/616x507-WayneMcGinnis.png",
@@ -443,7 +443,7 @@
   },
   {
     "name": "Mona Lunsford",
-    "description": "Mona Lunsford was born on July 25, 1917 in Earle. She grew up surrounded by the blues, which eventually influenced her music career. In 1967, at 50 years old, she released the rockabilly song <i>I'm Getting Restless</i> on Sonny Deckelman's Van-Deck record label. She also wrote many other songs for other artists, including <i>My Little Jimmy</i> for Wanda Jackson.",
+    "description": "Mona Lunsford was born on July 25, 1917 in Earle. She grew up surrounded by the blues, which eventually influenced her music career. In 1967, at 50 years old, she released the rockabilly song <i>I'm Getting Restless</i> on Sonny Deckelman&rsquo;s Van-Deck record label. She also wrote many other songs for other artists, including <i>My Little Jimmy</i> for Wanda Jackson.",
     "thumbnail": "/thumbnailImages/234x234-MonaLunsford.png",
     "detailImage": {
       "src": "/detailImages/616x507-MonaLunsford.png",

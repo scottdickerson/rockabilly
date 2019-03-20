@@ -15,10 +15,11 @@
   text-transform: uppercase;
   padding: 2rem 3rem;
   font-weight: 500;
-  color: #f58f00;
+  color: #d0a127;
   text-transform: uppercase;
   font-size: 32pt;
   font-family: GhostLight;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
 .separator {

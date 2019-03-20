@@ -10,7 +10,7 @@ class App extends React.Component {
     resetDelay: PropTypes.number
   };
   static defaultProps = {
-    resetDelay: 30000
+    resetDelay: 120000
   };
   componentDidMount() {
     this.touchListener = document.body.addEventListener(
