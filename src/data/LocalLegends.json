@@ -10,7 +10,7 @@
     },
     "audio": {
       "src": "/mp3s/01 Billy Lee Riley Flying Saucer Rock and Roll.mp3",
-      "songTitle": "<i>Flyin' Saucers Rock &  Roll</i>, Sun Records, 1957",
+      "songTitle": "<i>Flyin&rsquo; Saucers Rock &  Roll</i>, Sun Records, 1957",
       "writtenBy": "Ray Scott",
       "performedBy": "Billy Riley and His Little Green Men"
     },
@@ -27,7 +27,7 @@
     },
     "audio": {
       "src": "/mp3s/02 BOBBY BROWN-Down At Big Marys House VADEN.mp3",
-      "songTitle": "<i>Down at Big Mary's House</i>, Vaden Records, 1959",
+      "songTitle": "<i>Down at Big Mary&rsquo;s House</i>, Vaden Records, 1959",
       "writtenBy": "Bobby Brown, Connie Winnifred Brown",
       "performedBy": "Bobby Brown and the Curios"
     },
@@ -78,7 +78,7 @@
     },
     "audio": {
       "src": "/mp3s/05 Chuck Comer - Little More Lovin.mp3",
-      "songTitle": "<i>Little More Lovin'</i>, Vaden Records, 1960",
+      "songTitle": "<i>Little More Lovin&rsquo;</i>, Vaden Records, 1960",
       "writtenBy": "Chuck Comer",
       "performedBy": "Chuck Comer"
     },
@@ -112,7 +112,7 @@
     },
     "audio": {
       "src": "/mp3s/07 Edwin Bruce   Baby Thats Good.mp3",
-      "songTitle": "<i>Baby That's Good</i>, Sun Records, 1958",
+      "songTitle": "<i>Baby That&rsquo;s Good</i>, Sun Records, 1958",
       "writtenBy": "Edwin Bruce",
       "performedBy": "Edwin Bruce"
     },
@@ -171,7 +171,7 @@
   },
   {
     "name": "Jimmy Lamberth",
-    "description": "Born in 1926 in Jonesboro, Jimmy Lamberth began his musical career at eight years old. By age 15 he formed a band called The Rhythm Kings. He was primarily a jazz musician, but he played with rockabilly saxophonist Ace Cannon as well. Lamberth also released a few rockabilly songs of his own, including <i>Latch On To Your Baby</i> in 1957 and <i>Rockin' and Reelin'</i> in 1959. He founded Reka Records in Jonesboro, which issued records by fellow rockabillies Kenny Owens and Sonny Deckelman.",
+    "description": "Born in 1926 in Jonesboro, Jimmy Lamberth began his musical career at eight years old. By age 15 he formed a band called The Rhythm Kings. He was primarily a jazz musician, but he played with rockabilly saxophonist Ace Cannon as well. Lamberth also released a few rockabilly songs of his own, including <i>Latch On To Your Baby</i> in 1957 and <i>Rockin&rsquo; and Reelin&rsquo;</i> in 1959. He founded Reka Records in Jonesboro, which issued records by fellow rockabillies Kenny Owens and Sonny Deckelman.",
     "thumbnail": "/thumbnailImages/234x234-JimmyLamberth.png",
     "detailImage": {
       "src": "/detailImages/616x507-JimmyLamberth.png",
@@ -180,7 +180,7 @@
     },
     "audio": {
       "src": "/mp3s/11 Jimmy Lamberth - Rockin And Reelin.mp3",
-      "songTitle": "<i>Rockin' and Reelin'</i>, Reka Records, 1959",
+      "songTitle": "<i>Rockin&rsquo; and Reelin&rsquo;</i>, Reka Records, 1959",
       "writtenBy": "Jimmy Lamberth",
       "performedBy": "Jimmy Lamberth"
     },
@@ -222,16 +222,16 @@
   },
   {
     "name": "Johnny Perrin",
-    "description": "Johnny Perrin of Jonesboro is another example of the persistence of rockabilly music in Northeast Arkansas after its popularity declined elsewhere. In 1966, he released <i>You Don't Give It Back</i> on Alley Records, a rockabilly tune that features vocals reminiscent of Elvis Presley&;s performances.",
+    "description": "Johnny Perrin of Jonesboro is another example of the persistence of rockabilly music in Northeast Arkansas after its popularity declined elsewhere. In 1966, he released <i>You Don&rsquo;t Give It Back</i> on Alley Records, a rockabilly tune that features vocals reminiscent of Elvis Presley&rsquo;s performances.",
     "thumbnail": "/thumbnailImages/234x234-JohnnyPerrin.png",
     "detailImage": {
       "src": "/detailImages/616x507-JohnnyPerrin.png",
-      "description": "Johnny Perrin, <i>You Don't Give It Back</i>, 1966",
+      "description": "Johnny Perrin, <i>You Don&rsquo;t Give It Back</i>, 1966",
       "photoCredit": "Discogs"
     },
     "audio": {
       "src": "/mp3s/14 Johnny Perrin-You Dont Give It Back ALLEY.mp3",
-      "songTitle": "<i>You Don't Give It Back</i>, Alley Records, 1966",
+      "songTitle": "<i>You Don&rsquo;t Give It Back</i>, Alley Records, 1966",
       "writtenBy": "Johnny Perrin",
       "performedBy": "Johnny Perrin"
     },
@@ -306,8 +306,8 @@
     "id": 17
   },
   {
-    "name": "Narvel \"The Marvel\" Felts",
-    "description": "Narvel Felts was born November 11, 1938 in Keiser, but raised in Bernie, Missouri. He was discovered when he sang <i>Blue Suede Shoes</i> in a high school talent show, and recorded his first single in 1958, <i>Kiss-a Me Baby</i>. Felts’ early recordings include two unreleased rockabilly songs, <i>My Babe</i> and <i>Tongue-Tied Jill</i>. Thanks to the help of Johnny Cash and Roy Orbison, Felts’ career took off in the early 1960s and by the early 1970s he had gained national recognition as a country singer. Felts is best known for his falsetto voice and his 1975 country hit, <i>Reconsider Me.</i>",
+    "name": "Narvel &ldquo;The Marvel&rdquo; Felts",
+    "description": "Narvel Felts was born November 11, 1938 in Keiser, but raised in Bernie, Missouri. He was discovered when he sang <i>Blue Suede Shoes</i> in a high school talent show, and recorded his first single in 1958, <i>Kiss-a Me Baby</i>. Felts&rsquo; early recordings include two unreleased rockabilly songs, <i>My Babe</i> and <i>Tongue-Tied Jill</i>. Thanks to the help of Johnny Cash and Roy Orbison, Felts’ career took off in the early 1960s and by the early 1970s he had gained national recognition as a country singer. Felts is best known for his falsetto voice and his 1975 country hit, <i>Reconsider Me.</i>",
     "thumbnail": "/thumbnailImages/234x234-NarvelFelts.png",
     "detailImage": {
       "src": "/detailImages/616x507-NarvelFelts.png",
@@ -333,7 +333,7 @@
     },
     "audio": {
       "src": "/mp3s/20 Heart Breakin Mama Skeets McDonald.mp3",
-      "songTitle": "<i>Heartbreakin' Mama</i>, Capitol Records, 1956",
+      "songTitle": "<i>Heartbreakin&rsquo; Mama</i>, Capitol Records, 1956",
       "writtenBy": "Harlan Howard, Skeets McDonald, Wynn Stewart",
       "performedBy": "Skeets McDonald"
     },
@@ -384,7 +384,7 @@
     },
     "audio": {
       "src": "/mp3s/23 IVE GOT LOVE - Sonny Deckelman.mp3",
-      "songTitle": "<i>I've Got Love</i>, Van-Deck Records, 1959",
+      "songTitle": "<i>I&rsquo;ve Got Love</i>, Van-Deck Records, 1959",
       "writtenBy": "Deckelman, Evans, Trigg",
       "performedBy": "Sonny Deckelman and the Blue Notes"
     },
@@ -400,8 +400,8 @@
       "photoCredit": "RV Life"
     },
     "audio": {
-      "src": "/mp3s/24 It'll Be Me Teddy Redell.mp3",
-      "songTitle": "<i>It'll be Me</i>, White Label Records, 1979",
+      "src": "/mp3s/24 It&rsquo;ll Be Me Teddy Redell.mp3",
+      "songTitle": "<i>It&rsquo;ll be Me</i>, White Label Records, 1979",
       "writtenBy": "Jack Clement",
       "performedBy": "Teddy Redell"
     },
@@ -443,16 +443,16 @@
   },
   {
     "name": "Mona Lunsford",
-    "description": "Mona Lunsford was born on July 25, 1917 in Earle. She grew up surrounded by the blues, which eventually influenced her music career. In 1967, at 50 years old, she released the rockabilly song <i>I'm Getting Restless</i> on Sonny Deckelman&rsquo;s Van-Deck record label. She also wrote many other songs for other artists, including <i>My Little Jimmy</i> for Wanda Jackson.",
+    "description": "Mona Lunsford was born on July 25, 1917 in Earle. She grew up surrounded by the blues, which eventually influenced her music career. In 1967, at 50 years old, she released the rockabilly song <i>I&rsquo;m Getting Restless</i> on Sonny Deckelman&rsquo;s Van-Deck record label. She also wrote many other songs for other artists, including <i>My Little Jimmy</i> for Wanda Jackson.",
     "thumbnail": "/thumbnailImages/234x234-MonaLunsford.png",
     "detailImage": {
       "src": "/detailImages/616x507-MonaLunsford.png",
-      "description": "Mona Lunsford, <i>I'm Getting Restless</i>, 1967",
+      "description": "Mona Lunsford, <i>I&rsquo;m Getting Restless</i>, 1967",
       "photoCredit": "Source unknown"
     },
     "audio": {
       "src": "/mp3s/27 Im Getting Restless.mp3",
-      "songTitle": "<i>I'm Getting Restless</i>, Van-Deck Records, 1967",
+      "songTitle": "<i>I&rsquo;m Getting Restless</i>, Van-Deck Records, 1967",
       "writtenBy": "Mona Lunsford",
       "performedBy": "Mona Lunsford"
     },

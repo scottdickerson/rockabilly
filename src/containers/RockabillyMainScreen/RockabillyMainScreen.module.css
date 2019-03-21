@@ -5,7 +5,7 @@
   height: 214px;
   border: 1px solid #66c4a4;
   border-radius: 10px;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
 }
 
 .rockabillyIntro > div {
@@ -21,7 +21,7 @@
   color: #ffffff;
   font-weight: 400;
   line-height: 2rem;
-  
+  letter-spacing: 0.01rem;
 }
 
 .rockabillyMain {

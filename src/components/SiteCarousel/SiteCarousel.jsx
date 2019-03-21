@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import Slider from "react-slick";
 import React from "react";
+import ReactHTMLParser from 'react-html-parser';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -69,7 +70,7 @@ class SiteCarousel extends React.Component {
     const style = { visibility: visible ? "visible" : "hidden" };
     return (
       <div className="siteCarouselPositioner" style={style}>
-        <div className="siteCarouselTitle">{sites[selectedSiteIndex].name}</div>
+        <div className="siteCarouselTitle">{ReactHTMLParser(sites[selectedSiteIndex].name)}</div>
         <div className="siteCarouselBackground" />
         <div
           className="siteCarousel"

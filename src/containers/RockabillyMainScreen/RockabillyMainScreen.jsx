@@ -43,7 +43,7 @@ class RockabillyMainScreen extends React.Component {
                 textClassName={styles.rockabillyIntroText}
                 detailsClassName={styles.rockabillyIntroDetails}
                 intro="Scroll below to learn about the local folks from the rockabilly scene."
-                details="Northeast Arkansas was home to many rockabilly musicians, from one-hit wonders to performers who made their entire careers in the music industry. <br/> All of them contributed to a revolutionary sound that transformed the world of music and gave rise to rock and roll. "
+                details="Northeast Arkansas was home to many rockabilly musicians, from one-hit wonders to performers who made their entire careers in the music industry. All of them contributed to a revolutionary sound that transformed the world of music and gave rise to rock and roll. "
               />
               <RockabillyCarousel
                 siteTapped={this.handleSelection}

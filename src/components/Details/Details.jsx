@@ -53,10 +53,10 @@ class Details extends React.Component {
     return (
       <div className={classnames(styles.details, detailsClassName)}>
         <div className={classnames(styles.title, detailsTitleClassName)}>
-          {title}
+          {ReactHTMLParser(title)}
         </div>
         <img className={styles.separator} src={separatorImgSrc} alt="" />
-        {subTitle ? <div className={styles.subTitle}>{subTitle}</div> : null}
+        {subTitle ? <div className={styles.subTitle}>{ReactHTMLParser(subTitle)}</div> : null}
         <div className={classnames(styles.blurb, detailsTextClassName)}>
           {ReactHTMLParser(details)}
         </div>
