@@ -32,7 +32,6 @@ const RockabillyAudio = ({
   return (
     <AudioPlayer
       {...others}
-      loop
       renderToggleButton={isPlaying =>
         !isPlaying ? (
           <LottieControl
