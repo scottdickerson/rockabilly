@@ -1,8 +1,9 @@
-# Spying with Stem
+# Rockabilly
+![Rockabilly preview](./Preview.png)
 
 ## Project Overview
 
-This project is for a hands-on Museum exhibit kiosk that uses animations to explain concepts of cryptography. We are using a aftereffects to build the animations, a plugin called bodymovin to export them, and a React component called Lottie to render them inside a React app.
+This project is for a hands-on Museum exhibit kiosk that plays snippets of the early pioneers of the Rockabilly style.
 
 ## Setting up the project
 
@@ -34,7 +35,8 @@ yarn start
 ```javascript
 /src/components: shared components can be reused across other projects
 /src/containers: Container components are bound to specific animations and data files
-/src/sounds: Sound files should be placed here
+/public/: Images and sound files are loaded from here (instead of being webpacked so that we can reference the path in the data csv file)
+/src/data/LocalLegends.json: lists all of the rockabilly informatino we are displaying (it is being generated from a csv file)
 ```
 
 ## Production build and server
